@@ -47,7 +47,7 @@
 * stage area (git add 를 했을 때 올라가는 상태, stage area에 있는 것들만 commit이 된다.)
 * merge에는 fast forward라는 방식이 있음. 이 경우 새로운 커밋을 생성하지 않는다. master에서 branch를 땄고 그 후 branch가 수정되는 동안 master에서 수정사항이 없다면 merge했을 때 새로운 커밋을 생성하지 않고 branch = master라는 것만 명시해준다.
 * stash는 적어도 버전관리 되고있는것들만 저장이됨 (새로운 파일을 추가한 경우 add 하지 않으면 List에 저장되지않음)
-git push --set-upstream origin master
+git push --set-upstream origin master  
 
 
 
